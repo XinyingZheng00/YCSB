@@ -278,7 +278,9 @@ public class RocksDBClient extends DB {
       result.putAll(values);
 
       //store
-      rocksDb.put(cf, key.getBytes(UTF_8), serializeValues(result));
+      WriteOptions writeOptions = new WriteOptions();
+      writeOptions.setSync(true);
+      rocksDb.put(cf, writeOptions, key.getBytes(UTF_8), serializeValues(result));
 
       return Status.OK;
 
@@ -296,7 +298,9 @@ public class RocksDBClient extends DB {
       }
 
       final ColumnFamilyHandle cf = COLUMN_FAMILIES.get(table).getHandle();
-      rocksDb.put(cf, key.getBytes(UTF_8), serializeValues(values));
+      WriteOptions writeOptions = new WriteOptions();
+      writeOptions.setSync(true);
+      rocksDb.put(cf, writeOptions, key.getBytes(UTF_8), serializeValues(values));
 
       return Status.OK;
     } catch(final RocksDBException | IOException e) {

@@ -18,8 +18,8 @@ LICENSE file.
 ## Quick Start
 
 ```
-sudo cp libozonedb.so /usr/lib/
-mvn install:install-file -Dfile=/home/xinying/Desktop/OZONEDB/xinying/ozonedb/ozonedb-jni-maven/jni/target/demoproc-jni-1.0-jar-with-dependencies.jar -DgroupId=ozonedbjnimaven -DartifactId=demoproc-jni -Dversion=1.0 -Dpackaging=jar
+sudo cp /users/Xinying/ozonedb/ozonedb-jni-maven/jni/target/classes/libozonedb.so /usr/lib/
+mvn install:install-file -Dfile=/users/Xinying/ozonedb/ozonedb-jni-maven/jni/target/demoproc-jni-1.0-jar-with-dependencies.jar -DgroupId=ozonedbjnimaven -DartifactId=demoproc-jni -Dversion=1.0 -Dpackaging=jar
 
 mvn -pl site.ycsb:ozonedb-binding -am clean package
 ./bin/ycsb load ozonedb -s -P workloads/workloada (-p property)

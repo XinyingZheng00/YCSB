@@ -17,8 +17,7 @@ import java.util.Properties;
  */
 public class OzoneDBClient extends DB {
   private static final String CONFIG_PROPERTY = "shared_config";
-  private static final String CONFIG_DEFAULT = "/home/xinying/Desktop/OZONEDB/"+
-      "xinying/ozonedb/src/shared_config_rocksdb.json";
+  private static final String CONFIG_DEFAULT = "/users/Xinying/ozonedb/src/shared_config_rocksdb.json";
   private static OzoneDBJNI db = null;
 
   @Override
