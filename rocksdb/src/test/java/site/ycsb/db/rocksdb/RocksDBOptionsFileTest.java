@@ -58,7 +58,15 @@ public class RocksDBOptionsFileTest {
     final DBOptions dbOptions = new DBOptions();
 
     RocksDB.loadLibrary();
-    OptionsUtil.loadLatestOptions(dbPath, Env.getDefault(), dbOptions, cfDescriptors);
+    // OptionsUtil.loadLatestOptions(dbPath, Env.getDefault(), dbOptions, cfDescriptors);
+
+    try (final ConfigOptions configOptions = new ConfigOptions().setIgnoreUnknownOptions(false)
+        .setInputStringsEscaped(true)
+        .setEnv(Env.getDefault())) {
+      RocksDB.loadLibrary();
+      OptionsUtil.loadLatestOptions(
+          configOptions, dbPath, dbOptions, cfDescriptors);
+    }
 
     try {
       assertEquals(dbOptions.walSizeLimitMB(), 42);

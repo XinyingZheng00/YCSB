@@ -100,10 +100,14 @@ public class RocksDBClient extends DB {
     final DBOptions options = new DBOptions();
     final List<ColumnFamilyDescriptor> cfDescriptors = new ArrayList<>();
     final List<ColumnFamilyHandle> cfHandles = new ArrayList<>();
-
-    RocksDB.loadLibrary();
-    OptionsUtil.loadOptionsFromFile(optionsFile.toAbsolutePath().toString(), Env.getDefault(), options, cfDescriptors);
-    dbOptions = options;
+    try (final ConfigOptions configOptions = new ConfigOptions().setIgnoreUnknownOptions(false)
+                                                     .setInputStringsEscaped(true)
+                                                     .setEnv(Env.getDefault())) {
+      RocksDB.loadLibrary();
+      OptionsUtil.loadOptionsFromFile(
+          configOptions, optionsFile.toAbsolutePath().toString(), options, cfDescriptors);
+      dbOptions = options;
+    }
 
     final RocksDB db = RocksDB.open(options, rocksDbDir.toAbsolutePath().toString(), cfDescriptors, cfHandles);
 

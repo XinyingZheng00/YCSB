@@ -1,55 +1,20 @@
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_100 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-100.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_100 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-100.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_200 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-200.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_200 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-200.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_500 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-500.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_500 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-500.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_1000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-1000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_1000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-1000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_2000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-2000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_2000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-2000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_3000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-3000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_3000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-3000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_4000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-4000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_4000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-4000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_5000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-5000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_5000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-5000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_6000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-6000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_6000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-6000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_7000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-7000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_7000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-7000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_8000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-8000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_8000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-8000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_9000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-9000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_9000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-9000.result
-python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_10000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-10000.result
-python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_10000 > /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-10000.result
-
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_100 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-100.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_100 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-100.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_200 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-200.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_200 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-200.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_500 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-500.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_500 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-500.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_1000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-1000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_1000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-1000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_2000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-2000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_2000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-2000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_3000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-3000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_3000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-3000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_4000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-4000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_4000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-4000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_5000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-5000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_5000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-5000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_6000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-6000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_6000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-6000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_7000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-7000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_7000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-7000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_8000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-8000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_8000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-8000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_9000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-9000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_9000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-9000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_10000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-10000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/workloada_10000 > /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-10000.result -p rocksdb.dir=/tank/ycsb-rocksdb-data
-
-bash ycsb2graph.sh /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-100.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-200.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-500.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-1000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-2000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-3000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-4000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-5000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-6000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-7000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-8000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-9000.result /users/Xinying/ozonedb/bench/ycsb/ozonedb-WorkloadA-10000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-100.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-200.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-500.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-1000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-2000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-3000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-4000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-5000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-6000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-7000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-8000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-9000.result /users/Xinying/ozonedb/bench/ycsb/rocksdb-WorkloadA-10000.result
+#!/bin/bash
+for i in 10000 20000 50000 100000 200000 500000 1000000 
+do 
+    for j in 1KB
+    do
+        cd /users/Xinying/ozonedb/build && make clean-db && cd /users/Xinying/YCSB
+        python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i > /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/ozonedb$j-workloadA-$i.result
+        python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i >> /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/ozonedb$j-workloadA-$i.result
+        python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i > /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/rocksdb$j-workloadA-$i.result -p rocksdb.dir=/tank/ycsb-rocksdb-data -p rocksdb.optionsfile=/tank/option
+        python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i >> /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/rocksdb$j-workloadA-$i.result -p rocksdb.dir=/tank/ycsb-rocksdb-data -p rocksdb.optionsfile=/tank/option
+        # for k in 1 2 3 4 
+        # do
+        #     cd /users/Xinying/ozonedb/build && make clean-db && cd /users/Xinying/YCSB
+        #     python3 /users/Xinying/YCSB/bin/ycsb load ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i >> /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/ozonedb$j-workloadA-$i.result
+        #     python3 /users/Xinying/YCSB/bin/ycsb run ozonedb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i >> /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/ozonedb$j-workloadA-$i.result
+        #     python3 /users/Xinying/YCSB/bin/ycsb load rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i >> /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/rocksdb$j-workloadA-$i.result -p rocksdb.dir=/tank/ycsb-rocksdb-data -p rocksdb.optionsfile=/tank/option
+        #     python3 /users/Xinying/YCSB/bin/ycsb run rocksdb -s -P /users/Xinying/ozonedb/bench/ycsb/workload/workloada/$j/workloada_$i >> /users/Xinying/ozonedb/bench/ycsb/ycsb2graph/rocksdb$j-workloadA-$i.result -p rocksdb.dir=/tank/ycsb-rocksdb-data -p rocksdb.optionsfile=/tank/option
+        # done
+    done
+done

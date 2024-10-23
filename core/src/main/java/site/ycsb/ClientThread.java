@@ -22,6 +22,8 @@ import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.locks.LockSupport;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * A thread for executing transactions or data inserts to the database.
@@ -84,10 +86,11 @@ public class ClientThread implements Runnable {
   public int getOpsDone() {
     return opsdone;
   }
-
+  private static final Logger LOGGER = LoggerFactory.getLogger(ClientThread.class);
   @Override
   public void run() {
     try {
+      LOGGER.info("ClientThread " + threadid + " started with " + opcount + " operations.");
       db.init();
     } catch (DBException e) {
       e.printStackTrace();
